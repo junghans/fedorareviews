@@ -14,6 +14,7 @@ URL:		http://1wt.eu/projects/libslz/
 # git archive --format=tgz --prefix=libtgz-$V/ --output=libslz-$V.tar.gz v$V
 Source:		http://git.1wt.eu/web?p=%{name}.git;a=snapshot;h=v%{version};sf=tgz#/%{name}-%{version}.tar.gz
 
+Requires:       gcc
 
 %description
 SLZ is a fast and memory-less stream compressor which produces an output that
